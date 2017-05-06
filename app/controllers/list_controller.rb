@@ -3,6 +3,6 @@ class ListController < ApplicationController
   end
   def show
     @list_name = 'Chores'
-    @todo_descriptions = ['Sports', 'Songs', 'Music']
+    @todo_descriptions = ['Sports', 'Songs', 'Music','Artists']
   end
 end
