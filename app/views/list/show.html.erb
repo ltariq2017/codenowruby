@@ -1,1 +1,19 @@
 <h1>Todo List <%= @id %></h1>
+<ul>
+  <h2><%= @list.name %></h2>
+  <li>
+    <input type="checkbox"></input>
+    <span><%=@first_todo_description %></span>
+    <strong><%= @first_todo_pomodoro_estimate %></strong>
+  </li>
+  <li>
+    <input type="checkbox"></input>
+    <span><%= @second_todo_description%></span>
+    <strong><%= @second_todo_pomodoro_estimate %></strong>
+  </li>
+  <li>
+    <input type="checkbox"></input>
+    <span><%= @third_todo_description %></span>
+    <storng><%= @third_todo_pomodoro_estimate %></storng>
+  </li>
+</ul>
